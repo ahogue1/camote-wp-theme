@@ -50,8 +50,9 @@
 	}
 
 	li {
-		float: left;
 		position: relative;
+    display: inline-block;
+    margin-right: 6em;
 
 		&:hover > a,
 		&.focus > a {
@@ -68,6 +69,29 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
+}
+
+.main-navigation {
+  background: #000;
+  color: #fff;
+  text-align: right;
+  line-height: 90px;
+}
+
+#primary-menu a {
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    color: #0A9DE2;
+  }
+}
+
+.custom-logo-link {
+  float: left;
 }
 
 /* Small menu. */

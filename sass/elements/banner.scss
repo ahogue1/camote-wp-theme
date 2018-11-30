@@ -1,0 +1,35 @@
+.banner {
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  .site-branding {
+    margin-left: 100px;
+    max-width: 50%;
+  }
+
+  .site-title {
+    background: #0A9DE2;
+    color: #fff;
+    padding: .2em 0.8em;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 5.5px;
+    display: inline-block;
+  }
+
+  .site-description {
+    background: #81D742;
+    color: #fff;
+    padding: .2em 0.8em;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 5.5px;
+    display: inline-block;
+  }
+}
+

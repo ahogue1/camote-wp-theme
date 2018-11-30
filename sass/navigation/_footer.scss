@@ -1,0 +1,15 @@
+#footer {
+  background-color: #000;
+  color: white;
+  display: flex;
+  height: 50px;
+  align-items: center;
+
+  a, a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: #0A9DE2;
+  }
+}
